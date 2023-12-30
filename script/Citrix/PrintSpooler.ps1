@@ -1,0 +1,2 @@
+$XAServers = (Get-ADComputer -filter {SamAccountName -like "DC1VWCTXVDTST0*"} -Server ent.dir.labor.gov).DNSHostname $XASession = New-PSSession -ComputerName $XAServers icm -Session $XASession -ScriptBlock {Get-Service -Name cpsvc} 
+Remove-PSSession $XASession

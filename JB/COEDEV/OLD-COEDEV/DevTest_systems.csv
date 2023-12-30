@@ -1,0 +1,3 @@
+ComputerName,IPAddress,FolderName,Agency,Name,FirstName,LastName,NPUserName,NPDomain,NPEmail,ProdUserName,ProdEmail,ProdDomain,Distributed,Notes,Status,DomainType
+DC1VDOCIOD799,10.50.31.86,OCIO-Maint,OCIO,"Sanchez, Gilberto J - OASAM OCIO",Gilberto,Sanchez,z-Sanchez-Gilberto-J,DEV-ENT,Sanchez.Gilberto.J@dev.dol.gov,Sanchez-Gilberto-J,Sanchez.Gilberto.J@dol.gov,ENT,,,Provisioned,Dev
+DC1VDOCIOD800,10.50.31.87,OCIO-Maint,OCIO,"Phillips, Aaron - OASAM OCIO",Aaron,Phillips,z-Phillips.Aaron,DEV-ENT,Phillips.Aaron@dev.dol.gov,Phillips.Aaron,Phillips.Aaron@dol.gov,ENT,,,Provisioned,Dev

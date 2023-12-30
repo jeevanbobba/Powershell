@@ -1,0 +1,5 @@
+﻿
+Rename-Item \\mgtutils01\DML\COE-DEV\RDP_Files\Ref\Scripts\Final\Dev_Systems.csv \\mgtutils01\DML\COE-DEV\RDP_Files\Ref\Scripts\Final\Dev_Systems$(get-date -Format HHmmtt-mm-dd-yy).csv
+gc "\\mgtutils01\DML\COE-DEV\RDP_Files\Ref\Scripts\Final\devuseremail_New.txt" | %{
+Get-ADUser -Filter {EmailAddress -like $PSItem} -Properties Department -Server ent.dir.labor.gov:3268 | select  @{l="ComputerName";e={}},@{l="IPAddress";;e={}},@{l="MacAddress";;e={}},@{l="FolderName";;e={}},@{l="UserName";e={"z-"+$_.SamAccountName}},Name,@{l="Agency";e={$_.Department}},@{l="DevUserDomain";e={"DEV-"+(((($_.DistinguishedName -Split "," | ? {$_ -like "DC=*"})  -replace ("DC=", ""))[0]).toupper())}},@{l="DEVEmail";e={($_.UserPrincipalName) -replace "@dol.gov","@dev.dol.gov"}},@{l="Status";e={}},@{l="ProductionUserName";e={$_.SamAccountName}},@{l="ProdEmail";e={$_.UserPrincipalName}},@{l="ProdUserDomain";e={((($_.DistinguishedName -Split "," | ? {$_ -like "DC=*"})  -replace ("DC=", ""))[0]).toupper()}},@{l="Distributed";;e={}},@{l="Notes";;e={}} | Export-csv \\mgtutils01\DML\COE-DEV\RDP_Files\Ref\Scripts\Final\Dev_Systems.csv -NoTypeInformation -Append
+}

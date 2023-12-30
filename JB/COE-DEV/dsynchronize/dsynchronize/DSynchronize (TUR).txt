@@ -1,0 +1,154 @@
+DSynchronize Dimitrios Coutsoumbas (Dimio) tarafýndan hazýrlandý
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Güncel sürümünü aþaðýdaki baðlantýdan edinebilirsiniz:
+
+Ana sayfa: "http://dimio.altervista.org/" 
+
+
+
+NÝTELÝÐÝ:
+~~~~~~~~~~~~
+
+DSynchronize yerel aðdaki iki veya daha fazla dizini eþleyen bir özgür yazýlýmdýr. 
+Yazýlým her dizinin kaynaklarýný hedef yerdekiler ile ayrý ayrý karþýlaþtýrarak
+hedef konumdakilerle deðiþtirilmesini saðlar (ekleme, yerine koyma veya dosyalarý ve alt dizinleri silmerek)
+Böylece, sözü edilen dosyalarýn ve alt dizinlerin kaynaktakilerle ayný olmasýný saðlar.
+Ayrýca çoklu süzgeçle, belirli dosya türlerine göre (Örneðin, *.exe; *.txt gibi) ekleme ya da hariç tutmayý destekler ("; " iþaretiyle ayýrarak)
+Eþlemeleri çeþitli biçimlerde yapýlandýrabilirsiniz (% WINDIR%,% USERPROFILE% gibi). 
+Uygulama, siz çalýþmanýzý sürdürürken geride sezdirmeksizin çalýþýr.
+
+
+
+DESTEKLENEN ÝÞLETÝM SÝSTEMLERÝ:
+~~~~~~~~~~~~~~~~~~
+
+Windows 10
+Windows 8
+Windows Seven
+Windows VISTA
+Windows 2003
+Windows XP 
+Windows 2000 
+Windows NT4, SP6 ve IE4 ya da daha üst sürümünü içeren. 
+
+
+
+SEÇENEKLER:
+~~~~~~~~
+
+"Çýkýþta kaydet" 
+Hangi dizinlerin eþleneceðini hatýrlamak için tüm ayarlarý kaydeder. 
+
+"Parçalanmayý önleme" 
+Sürücü birimlerindeki parçalanmayý azaltýr. Böylelikle, önceki dosyanýn yerine yerleþtirilen
+yeni dosyanýn oluþturacaðý boþluklarý engeller.
+
+"Zamanlama ayarý" 
+Seçenek ile belirli düzenle eþleme saðlamayý ayarlayabilirsiniz.
+Saat ve dakikalarý kullanarak eþlemeler arasýnda na kadar süre geçmesi gerektiðini belirleyebilirsiniz.
+Ayrýca, Eþlemenin baþlayacaðý günü veya seçtiðiniz gündeki bir belli zamaný özellikle belirleyebilirsiniz.
+
+"Bitince çýk" 
+Seçenek ile eþleme sürecinin bitiminde bilgisayarý otomatik olarak kapatabilirsiniz.
+
+"Yoksa, yeni klasör oluþtur" 
+Eðer belirlediðiniz dizin hedef yerde yoksa, belirlenen yerde kaynak dizinle ayný adlý
+bir tanesini oluþturacaktýr. 
+
+"Hedef klasöre tarih ekle" 
+Seçenek ile hedef yerdeki dosyalara tarih ekleyecektir. Örneðin, Kaynak dosya A, "C:\hedeftekidosya" gibiyken "C:\hedeftekidosya 18-07-2004 22.30" gibi olacak. 
+Bu yöntemden, dosyalarýn arasýndaki ayrýmý anlamayý saðlayan bir zaman etiketine sahip birden çok yedek
+oluþturmada yararlanabilirsiniz. 
+
+"Yeni dosyalarý kopyala" 
+Hedef yerdeki dosyayý ancak asýl dosya daha yeniyse günceller. 
+
+"Boþta bekleme önceliði" 
+Sistemdeki kullaným önceliðini atar.
+Bu, halihazýrdaki sistem kaynaklarýnýn azýný kullanan DSynchronize için gerekli deðildir. Bu seçeneði kullanmak, daha aðýr bir eþleme sürecine neden olacaktýr.
+
+"Karþýlýklý eþle" 
+Bu seçenek ile her iki yöndeki en yeni dosyalarýn birbiriyle güncellenmesi saðlanýr. 
+Kaynak ve hedef klasörlerdeki her dosya incelenerek en yeni dosya her iki yerde de en güncel biçimiyle yer alacak.
+Kaynak ve hedef eþleme süreci sonrasý týpatýp ayný olacak.
+
+"Eþzamanlý eþle" 
+Asýl kaynak dosyadaki olasý deðiþiklikler için belirlenen klasörleri süreklice izler (Çok az iþlemci gücü kullanarak), hedef yere deðiþiklikleri uygular. 
+Bu seçeneði etkinleþtirmeden önce bir genel, olaðan eþlemeyi tamamlamýþ olmalýsýnýz.
+Üstelik bu seçenek ile baþýndan itibaren iki dosyanýn güncel kalmasýný saðlayabilirsiniz. 
+
+"Otomatik baþla"
+Bu seçenek ile program her Windows açýlýþýnda hizmet olarak baþlar.  
+Eðer eþleme süreci belirli zamana ayarlýysa, ayarlandýðý gibi baþlayacak, aksi taktirde
+eþleme süreci hemen baþlayacaktýr. 
+
+"Hizmet olarak baþlat" 
+Bu seçenek ile yazýlým Windows açýldýðýnda özdevimli (otomatik) baþlar. 
+Yazýlýmýn birlikte baþlayacaðý kullanýcý hesabýný belirleme olanaðýnýz vardýr.
+Kaynak ve hedef dizinlere eriþmek için yeterli izinlerin tanýmlandýðý kullanýcý hesabýna
+sahip olduðunuzdan emin olun.
+
+Diðer seçeneklerin iþlevi kolayca ayrýmsanabilir: -)
+
+
+
+KOMUT SATIRINDAKÝ DEÐÝÞKENLER
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Komut satýrýnda kimi deðiþkenleri kullanabilirsiniz.
+
+/START 
+Bu komut son kaydedilen ayarlarla eþlemeyi hemen baþlatýr
+
+/MINIMIZE 
+Bu komutla DSynchronize simge durumuna küçülerek baþlar. 
+
+/HIDDEN 
+Bu komutla DSynchronize görev çubuðunda simge yer almaksýzýn geride çalýþmaya baþlar. 
+
+/NOSECURITYCHECK 
+Eþleme sürecinden önce, dosyadaki okuma yazma haklarýna sahip olup olmadýðýna, dosya üzerinde herhangi bir kýsýtlama olup olmadýðýna bakmaz.
+Yine de kimi durumda güvenlik amaçlý incelemeler yazma-okuma haklarýna sahip dosyalarýn eþlemesini engelleyebilir. Sözü geçen seçenek, belirli durumlarda ise olaðan süreci iþletir.
+
+/SOMEFILE.INI 
+Eþlemeyi denetlemek içinbir belirli INI uzantýlý dosya kullanýr. 
+Su dosya DSynchronize ile ayný dizinde yar almalýdýr.
+
+
+Dimitrios Coutsoumbas (Dimio)
+E-POSTA   : cyberdimio@gmail.com
+ANA SAYFA : http://dimio.altervista.org/
+
+
+
+EK AÇIKLAMA: 
+~~~~~
+Bu yazýlým kurulumsuzluk özelliðini kazanmak için UPX teknolojisini kullanýr (http://upx.sourceforge.net/). 
+
+
+
+LÝSANS: 
+~~~~~~~~
+
+Bu program özgür yazýlým lisansýyla daðýtýlmaktadýr. 
+
+
+
+EÞZAMANLI EÞLEME ÝLE ÝLGÝLÝ AÇIKLAMALAR:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+NASIL ÝÞ GÖRÜR: 
+Yazýlým ana kaynaktaki tüm deðiþiklikleri izleyerek her On saniyede bir ayný deðiþikleri hedef konuma yansýtýr.
+Yok yere iþlemci gücü tüketiminin önüne geçmek amacýyla On saniyeliðine beklemeye geçer.
+Eðer bir dosyada On saniyede iki kez deðiþiklik yapýldýysa, iþlemci gücü tüketimini azaltmak için sadece bir kez güncelleme yapýlýr. 
+
+OLASI SORUNLAR: 
+Eþzamanlý eþleme süreci süresince, iþlem günlüðünde kimi eylemlerle ilgili olumsuz sonuçlar (BAÞARISIZ ya da YANIT VERMEDÝ gibi) görmeyi olaðan karþýlayýn.
+Sözü edilen sonuçlar, eþleme sürecinin aksadýðýna iþaret etmez. 
+Örneðin, birkaç saniyede güncelleyip hemen sonra sileceðiniz bir dosya oluþturduysanýz, yazýlým eþleme sürecini baþlatmayý denediðinde aslýnda her þey yonunda gözükmesine karþýn iki hata olacaktýr. Üstelik yazýlým, var olmayan bir dosyayý eþlemeyi deneyeceðinden dosyayý silmeye uðraþacaktýr. 
+
+Eþzamanlý eþleme sürecinin henüz geliþtirilmektedir.
+Ne var ki, nadiren kimi durumlar eþzamanlý eþleme sürecinde aksaklýklara yol açar.
+Bundan ötürü "Eþzamanlý eþleme"yi seçerseniz, belirli aralýklarla genel, yani sizin tarafýnýzdan baþlatýlan
+bir eþleme gerçekleþtirmeniz önerilir.

@@ -1,0 +1,11 @@
+Computername,IPAddress,FolderName,DEVUserName,Name,Agency,DevDomain,DevEmail,ProdUserName,FirstName,LastName,ProdEmail
+SILVMOCIOD01,10.50.28.19,OASAM-Allocated,z-ala-ravi,,OASAM,DEV-OASAM,Ala.RaviBabu@DEV-DOL.gov,,,,Ala.RaviBabu@DOL.gov
+SILVMOCIOD228,10.50.28.254,ETA-Allocated,z-Abdalla-Wayel-E,,ETA,DEV-ETA,Abdalla.Wayel.E@DEV-DOL.gov,,,,Abdalla.Wayel.E@DOL.gov
+SILVMOCIOD244,10.50.29.10,ETA-Allocated,z-Ahmad.Waqar,,ETA,DEV-ETA,Ahmad.Waqar@DEV-DOL.gov,,,,Ahmad.Waqar@DOL.gov
+SILVMOCIOD07,10.50.28.32,ETA-Allocated,z-Akram-Muhammad,,ETA,DEV-ETA,Ellis.Hassan.K@DEV-DOL.gov,,,,Ellis.Hassan.K@dol.gov
+SILVMOCIOD235,10.50.28.17,ETA-Allocated,z-Alamgir-Mohamed,,ETA,DEV-ETA,Alamgir.Mohamed@DEV-DOL.gov,,,,Alamgir.Mohamed@dol.gov
+SILVMOCIOD294,10.50.29.60,ETA-Allocated,z-Ali.Jalal,,ETA,DEV-ETA,Ali.Jalal@dev.dol.gov,,,,Ali.Jalal@dev.dol.gov
+SILVMOCIOD299,10.50.29.65,ETA-Allocated,z-Alvi.Imtiaz,,ETA,DEV-ETA,Alvi.Imtiaz@dev.dol.gov,,,,Alvi.Imtiaz@dev.dol.gov
+SILVMOCIOD198,10.50.28.223,ETA-Allocated,z-Amauwa.Nneoma.N,,ETA,DEV-ETA,,,,,
+SILVMOCIOD220,10.50.28.246,ETA-Allocated,z-Amelga-Dawit,,ETA,DEV-ETA,Amelga.Dawit@DEV-DOL.gov,,,,Amelga.Dawit@dol.gov
+SILVMOCIOD14,10.50.28.75,OASAM-Maint,#NA,,#NA,#NA,Akram.Muhammad.O@DEV-DOL.gov,,,,Akram.Muhammad.O@DOL.gov

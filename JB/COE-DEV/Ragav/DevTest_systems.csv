@@ -1,0 +1,5 @@
+ComputerName,IPAddress,FolderName,Agency,Name,FirstName,LastName,NPUserName,NPDomain,NPEmail,ProdUserName,ProdEmail,ProdDomain,Distributed,Notes,Status,DomainType
+DC1VDOASAMD849,10.50.31.137,OASAM-Maint,OASAM,"deWit, Joel Y - OASAM OCIO CTR",Joel,deWit,z-deWit.Joel.Y,DEV-ENT,deWit.Joel.Y@dev.dol.gov,deWit.Joel.Y,deWit.Joel.Y@dol.gov,ENT,,,Provisioned,Dev
+DC1VDOASAMD850,10.50.31.138,OASAM-Maint,OASAM,"Sabela, Peter - OASAM OCIO CTR",Peter,Sabela,z-Sabela.Peter,DEV-ENT,Sabela.Peter@dev.dol.gov,Sabela.Peter,Sabela.Peter@dol.gov,ENT,,,Provisioned,Dev
+DC1VDOASAMD851,10.50.31.139,OASAM-Maint,OASAM,"Allen, Jason D - OASAM OCIO CTR",Jason,Allen,z-Allen.Jason.D,DEV-ENT,Allen.Jason.D@dev.dol.gov,Allen.Jason.D,Allen.Jason.D@dol.gov,ENT,,,Provisioned,Dev
+DC1VDOASAMD852,10.50.31.140,OASAM-Maint,OASAM,"Chopra, Navjyot S - OASAM OCIO CTR",Navjyot,Chopra,z-Chopra.Navjyot.S,DEV-ENT,Chopra.Navjyot.S@dev.dol.gov,Chopra.Navjyot.S,Chopra.Navjyot.S@dol.gov,ENT,,,Provisioned,Dev

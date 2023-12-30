@@ -1,0 +1,1 @@
+﻿Select-String -Path 'C:\temp\email.txt' -Pattern '[a-zA-Z0-9_.-]+@dol.gov' -AllMatches | % { $_.Matches } | % { $_.Value }>> c:\temp\test.txt
