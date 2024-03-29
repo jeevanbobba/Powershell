@@ -48,4 +48,4 @@ $excel.Quit()
 # Release the Excel object
 [System.Runtime.InteropServices]::ReleaseComObject($excel)
 
-Write-Host "DHCP lease records exported to: $outputFile"
+Write-Host "DHCP lease records exported to file: $outputFile"
